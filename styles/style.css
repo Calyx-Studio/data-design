@@ -1,0 +1,89 @@
+a{
+	color: dimgray;
+	text-decoration: none;
+}
+
+a:visited{
+	color: darkgray;
+}
+
+a:hover{
+	color: darksalmon;
+}
+
+
+h1, h2, h3{
+	font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+p{
+	font-family: 'Raleway', sans-serif;
+}
+
+nav {
+	display: block;
+}
+
+.main-nav {
+	width: 70%;
+	text-align: center;
+	margin-right: 10px;
+	margin-left: auto;
+}
+.main-nav ul {
+	list-style-type: none;
+	font-family: 'Oswald', sans-serif;
+}
+
+.main-nav li{
+	display: inline-block;
+	background-color: rgba(211, 211, 211, 0.9);
+	border-radius: 3%;
+	padding:4px 8px;
+	width: 21%;
+	font-size: .7em;
+}
+
+a:visited{
+	color: darkgray;
+}
+
+a:hover{
+	color: darksalmon;
+}
+nav, a:visited{
+	color: dimgray;
+}
+
+
+.no-bullets{
+	list-style-type:none;
+}
+
+/* Index specific */
+
+
+
+
+/* Persona specific */
+
+img {
+	width: 30%;
+}
+
+.demographics.goals.frustrations{
+	margin:80px;
+	display: inline-block;
+}
+
+
+/* User Story specific */
+
+
+
+
+/* Use Case specific */
