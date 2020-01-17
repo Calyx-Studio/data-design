@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Data Design</title>
-	<link rel="stylesheet" type="text/css" href="../styles/style.css">
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Oswald|Raleway&display=swap" rel="stylesheet">
 </head>
 	<nav class="main-nav">
@@ -11,6 +11,7 @@
 			<li><a href="persona.php"> Persona</a></li>
 			<li><a href="user-story.php">User Story</a></li>
 			<li><a href="use-case-interaction.php">Use Case & Interaction</a></li>
+			<li><a href="conceptual-model-entity-diagram.php">Conceptual Model & ERD</a></li>
 		</ul>
 	</nav>
 <body>

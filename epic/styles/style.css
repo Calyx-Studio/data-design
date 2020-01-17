@@ -12,7 +12,7 @@ a:hover{
 }
 
 
-h1, h2, h3{
+h1, h2, h3, h4 {
 	font-family: 'Oswald', sans-serif;
 }
 
@@ -20,7 +20,7 @@ h1 {
 	text-align: center;
 }
 
-p{
+p, li {
 	font-family: 'Raleway', sans-serif;
 }
 
@@ -29,9 +29,9 @@ nav {
 }
 
 .main-nav {
-	width: 70%;
+	width: 100%;
 	text-align: center;
-	margin-right: 10px;
+	margin-right: auto;
 	margin-left: auto;
 }
 .main-nav ul {
@@ -44,7 +44,7 @@ nav {
 	background-color: rgba(211, 211, 211, 0.9);
 	border-radius: 3%;
 	padding:4px 8px;
-	width: 21%;
+	width: 17%;
 	font-size: .7em;
 }
 
@@ -52,13 +52,12 @@ a:visited{
 	color: darkgray;
 }
 
-a:hover{
-	color: darksalmon;
-}
 nav, a:visited{
 	color: dimgray;
 }
-
+a:hover{
+	color: darksalmon;
+}
 
 .no-bullets{
 	list-style-type:none;
@@ -71,19 +70,23 @@ nav, a:visited{
 
 /* Persona specific */
 
-img {
+.mama-mia-image {
 	width: 30%;
 }
 
-.demographics.goals.frustrations{
+.demographics.goals.frustrations {
 	margin:80px;
 	display: inline-block;
 }
-
 
 /* User Story specific */
 
 
 
-
 /* Use Case specific */
+
+
+/* Conceptual Model specific */
+.erd-image {
+	width: 80%;
+}

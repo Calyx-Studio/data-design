@@ -2,7 +2,7 @@
 	<html>
 		<head>
 			<title>Data Design: Persona</title>
-			<link href="../styles/style.css" rel="stylesheet" type="text/css">
+			<link href="styles/style.css" rel="stylesheet" type="text/css">
 			<link href="https://fonts.googleapis.com/css?family=Oswald|Raleway&display=swap" rel="stylesheet">
 		</head>
 		<nav class="main-nav">
@@ -11,11 +11,12 @@
 				<li><a href="persona.php"> Persona</a></li>
 				<li><a href="user-story.php">User Story</a></li>
 				<li><a href="use-case-interaction.php">Use Case & Interaction</a></li>
+				<li><a href="conceptual-model-entity-diagram.php">Conceptual Model & ERD</a></li>
 			</ul>
 		</nav>
 		<body>
 				<h1>Persona</h1>
-				<img src="../images/andrew-neel-unsplash.jpg" alt="Mama Mia" class="mama-mia-image">
+				<img src="images/andrew-neel-unsplash.jpg" alt="Mama Mia" class="mama-mia-image">
 				<div class="persona">
 				<h2>Mama Mia</h2>
 
@@ -27,6 +28,7 @@
 								<li>Education: Masters of Child Psychology</li>
 								<li>Job: Runs a family practice</li>
 								<li>Family: Married (partner travels for work), 2 kids</li>
+								<li>Technology: Work laptop; Macbook Pro, Google Chrome browser </li>
 							</ul>
 					</div>
 
@@ -46,6 +48,10 @@
 							<li>Spends too much time navigating to find educational content</li>
 							<li>Kids spend too much time watching shows</li>
 						</ul>
+						<div class="situation">
+							<h3>Situation</h3>
+							<p>Mamma Mia has had an extremely busy day. The kids are getting restless and she still hasn't gotten much of her research done. Her partner is out of town and she needs a few hours of uninterrupted time.</p>
+						</div>
 					</div>
 			</div>
 		</body>
