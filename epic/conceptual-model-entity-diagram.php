@@ -18,7 +18,7 @@
 	<h1>Conceptual Model & ERD</h1>
 		<h2>Conceptual Model</h2>
 			<h3>Entities & Attributes</h3>
-				<h4>Kids Profile</h4>
+				<h4>Profile</h4>
 					<ul>
 						<li>profileId (primary key)</li>
 						<li>profileActivationToken (for account verification)</li>
