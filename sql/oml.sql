@@ -36,4 +36,4 @@ SELECT listId, listMovieId from list WHERE listProfileId = UNHEX('a4bc9296f0a144
 -- tableB on tableA.primaryKeyA = tableB.foreignKeyA WHERE tableA.column = true
 -- SELECT movie.movieId, movie.movieTitle, movie.movieGenre, list.listMovieID FROM movie INNER JOIN list on movie.movieId = list.listMovieId WHERE movie.movieGenre = 'educational'
 
--- SELECT tweet.tweetId, like.likeTweetId, SUM() FROM tweet
+-- SELECT tweet.tweetId, like.likeTweetId, SUM() FROM tweet INNER JOIN

@@ -14,7 +14,7 @@ DROP TABLE IF EXISTS profile;
 CREATE TABLE profile (
 	-- this creates the attribute for the primary key
 	-- not null means the attribute is required!
-	profileId BINARY(32) NOT NULL,
+	profileId BINARY(16) NOT NULL,
 	profileActivationToken CHAR(32),
 	profileEmail VARCHAR(128) NOT NULL,
 	-- to make something optional, exclude the not null
@@ -45,7 +45,7 @@ CREATE TABLE list (
 	listId BINARY(16) NOT NULL,
 	-- these are still foreign keys
 	listProfileId BINARY(16) NOT NULL,
-	listMovieId BINARY(6) NOT NULL,
+	listMovieId BINARY(16) NOT NULL,
 	-- index the foreign keys
 	INDEX(listProfileId),
 	INDEX(listMovieId),
@@ -53,5 +53,5 @@ CREATE TABLE list (
 	FOREIGN KEY(listProfileId) REFERENCES profile(profileId),
 	FOREIGN KEY(listMovieId) REFERENCES movie(movieId),
 	-- finally, create a composite foreign key with the two foreign keys
-	PRIMARY KEY(listId, listProfileId, listMovieId)
+	PRIMARY KEY(listId)
 );
