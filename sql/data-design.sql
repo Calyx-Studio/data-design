@@ -30,8 +30,8 @@ CREATE TABLE profile (
 CREATE TABLE movie (
 	-- this is for yet another primary key...
 	movieId BINARY(16) NOT NULL,
-	movieTitle BINARY(16) NOT NULL,
-	movieCharacters VARCHAR(20) NOT NULL,
+	movieTitle BINARY(42) NOT NULL,
+	movieCharacters VARCHAR(90) NOT NULL,
 	movieGenre VARCHAR(20) NOT NULL,
 	movieRating VARCHAR(3) NOT NULL,
 	movieDescription VARCHAR (170) NOT NULL,
